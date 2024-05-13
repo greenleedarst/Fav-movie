@@ -1,19 +1,58 @@
 body{background-color: #ffff4d;
     color: #002233;
+    font-family: Verdana, arial, sans-serif;
+    font-weight: bold;
+}
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 80px;
+    background-color: #ffffff;
+    color: #f70a0a;
 }
 header{background-color: #000000;
     color: #e60000;
+    font-size: 150%;
+    padding: 10px 10px 10px 150px;
+    height: 150px;
+    background-image: url(scottpilgrim.jpg);
+    background-repeat: no-repeat;
 }
-nav{background-color: #bbdefb;
+h1{float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{background-color: #FE9900;
+    text-decoration: none;
+    width: 150px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 h2{background-color: #006699;
     color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
 }
 ul{color: #b30000;
 }
-
-
+nav a:visited{
+    color: #eaeaea;
+}
+nav a{
+    text-decoration: none;
+    background-color: ##FE9900;
+    border-bottom: 1px solid #FFFFFF;
+    display: block;
+}
 
 
 
 footer{color: #e65c00;
+        font-size: 80%;
+        text-align: center;
+}
